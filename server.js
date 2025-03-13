@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 
-const allowedOrigins = ["http://localhost:3000", "http://localhost:3001", "http://tudominio.com"];
+const allowedOrigins = ["http://localhost:3000", "http://localhost:3001", "https://skintopia.com.mx"];
 
 app.use(cors({
     origin: (origin, callback) => {
